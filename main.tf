@@ -107,7 +107,7 @@ resource "aws_route_table" "private-rt" {
     cidr_block = "0.0.0.0/0"           //all traffic 
     gateway_id = aws_nat_gateway.ng.id // nat gateway
   }
-
+  //this defines that the resouce wont update even after changing anything in the route attributes
   lifecycle {
     ignore_changes = [route]
   }
