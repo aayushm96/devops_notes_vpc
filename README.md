@@ -1,4 +1,3 @@
-<img width="386" alt="image" src="https://github.com/aayushm96/devops_notes_vpc/assets/34830219/d258decb-578f-4695-8104-ca74c7f2cdac"># devops_notes_eks_terraform
 eks setup using terraform
 1- create aws user in iam with admin access 
 and create access key and secret key
