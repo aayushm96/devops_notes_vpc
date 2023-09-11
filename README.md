@@ -1,7 +1,4 @@
-eks setup using terraform
-1- create aws user in iam with admin access 
-and create access key and secret key
-
+**vpc setup using terraform over a linux ec2 instance**
 
 sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
