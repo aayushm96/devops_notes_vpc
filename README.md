@@ -1,7 +1,9 @@
 **vpc setup using terraform over a linux ec2 instance**
 
 sudo yum install -y yum-utils
+
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+
 sudo yum -y install terraform
 
 <img width="386" alt="image" src="https://github.com/aayushm96/devops_notes_vpc/assets/34830219/5f9dfff4-3266-4a8f-9189-e09f6eef6190">
